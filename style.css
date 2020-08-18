@@ -1,0 +1,326 @@
+img {
+  padding: 20px;
+}
+
+
+@keyframes sun {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(320deg) translateX(0px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(0deg) translateX(0px) rotate(0deg); }
+}
+
+#sun {
+/* Centers it */
+position: fixed;
+
+top: 43.5%;
+left: 57%;
+
+/* Animation */
+
+
+animation-name: sun;
+animation-duration: 2s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+
+/* Mercury Animation */
+
+@keyframes mercury {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(320deg) translateX(100px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(0deg) translateX(100px) rotate(0deg); }
+}
+
+#mercury {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: mercury;
+animation-duration: 5s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+
+/* Venus Animation */
+
+@keyframes venus {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(240deg) translateX(200px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(0deg) translateX(200px) rotate(0deg); }
+}
+
+#venus {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: venus;
+animation-duration: 5.5s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+/* Earth Animation */
+
+@keyframes earth {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(180deg) translateX(300px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(0deg) translateX(300px) rotate(0deg); }
+}
+
+#earth {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: earth;
+animation-duration: 6s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+/* Mars Animation */
+
+@keyframes mars {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(195deg) translateX(400px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(0deg) translateX(400px) rotate(0deg); }
+}
+
+#mars {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: mars;
+animation-duration: 6.5s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+
+/* Jupiter Animation */
+
+@keyframes jupiter {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(50deg) translateX(300px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(-180deg) translateX(300px) rotate(0deg); }
+}
+
+#jupiter {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: jupiter;
+animation-duration: 5s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+
+}
+
+
+
+
+/* Saturn Animation */
+
+@keyframes saturn {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(30deg) translateX(410px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(-180deg) translateX(410px) rotate(0deg); }
+}
+
+#saturn {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: saturn;
+animation-duration: 5.5s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+
+/* Uranus Animation */
+
+@keyframes uranus {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(50deg) translateX(500px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(-180deg) translateX(500px) rotate(0deg); }
+}
+
+#uranus {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: uranus;
+animation-duration: 6s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+/* Neptune Animation */
+
+@keyframes neptune {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(180deg) translateX(600px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(-180deg) translateX(600px) rotate(0deg); }
+}
+
+#neptune {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: neptune;
+animation-duration: 6.5s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
+
+
+
+
+/* Pluto Animation */
+
+@keyframes pluto {
+
+
+        /* Starting point of orbit  radius of orbit   Determines how it spins while rotating*/
+  from { 	transform: rotate(200deg) translateX(700px) rotate(0deg); }
+
+        /* Ending point of orbit  radius of orbit   Determines how it spins while rotating*/
+  to   {  transform: rotate(-180deg) translateX(700px) rotate(0deg); }
+}
+
+#pluto {
+/* Centers it */
+position: absolute;
+
+top: 43.5%;
+left: 57%;
+
+
+/* Animation */
+
+
+animation-name: pluto;
+animation-duration: 7s;
+animation-delay: 2s;
+/* Retains the styles of last keyframe */
+animation-fill-mode: both;
+}
